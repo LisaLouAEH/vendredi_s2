@@ -1,0 +1,22 @@
+﻿Quelles sont les ressources de cette API ? (indice regarde les endpoints)
+
+FORMAT → 
+GET URL_site_insta/v1/objet/attrbuts_si_yen_a/methode/access_token=mon_num_token
+
+Get request	[recherche des informations (« fetch » = « recherche »)]
+
+	L Get /user/self 
+		=> Get information about the owner of the access_token. 
+	L Get /user/self/media/recent 
+		=> Get the most recent media published by the owner of the 				access_token. 
+	L Get /media/search …
+
+Post request [crée des objets (une publication est un objet sur insta)]
+
+	L  
+Put request	→ mettre a jour un objet (« updates object »)
+delete request	→ détruit un objet
+
+Quel est l'identifiant unique des utilisateurs ?
+
+User id definition :
